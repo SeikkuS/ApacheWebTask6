@@ -41,6 +41,11 @@ Tämän jälkeen avasin terminaalin ja etsin oikean hakemiston, jossa varmuuskop
  
  ![kuva](https://user-images.githubusercontent.com/105205141/216954210-db21666a-95ec-413b-8bbb-fe1ee9457668.png)
  
+ Annoin myös oikeudet ei-sudo käyttäjille kirjoittamalla seuraavan koodin, jolla annetaan oikeudet ei-sudo käyttäjille kyseiseen root-hakemistoon:
+
+![kuva](https://user-images.githubusercontent.com/105205141/216960155-b5754bd6-cffa-43f1-8953-9f50260a1145.png)
+
+ 
  ## b)
 
  ![kuva](https://user-images.githubusercontent.com/105205141/216955980-ef617bf2-194f-48a0-bf2e-b39a4c97cb34.png)
