@@ -31,8 +31,15 @@ Tämän jälkeen avasin terminaalin ja etsin oikean hakemiston, jossa varmuuskop
         <meta charset="utf-8"/>
         </head>
         <body>
-        <h1> Welcome to my new frontpage </h1>
+        <h1> Welcome to the new frontpage of this web server! </h1>
         </body>
         </html>
         
-   
+   Jonka jälkeen tallensin painamalla (CTRL + X => Y => ENTER)
+ 
+ uudelleenkäynnistettyäni palvelimen sivu näytti tältä: 
+ 
+ ![kuva](https://user-images.githubusercontent.com/105205141/216954210-db21666a-95ec-413b-8bbb-fe1ee9457668.png)
+ 
+ ## b)
+
