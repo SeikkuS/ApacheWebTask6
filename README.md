@@ -47,7 +47,7 @@ Tämän jälkeen avasin terminaalin ja etsin oikean hakemiston, jossa varmuuskop
  
  tein virheen apache2.conf  -tiedostoon poistamalla yhden kaarisulun, joka aiheutti syntaksivirheen. En edes saanut palvelinta takaisin päälle. 
  
- löysin virheen kirjoittamalla
+ Tämän jälkeen kävin katsomassa error.log:ista jos löytäisin virheilmoitusta asiaan liittyen, mutta sitä ei error.log:iin ollut listattu. Löysin loppujen lopuksi virheen käynnistämällä palvelinta uudelleen, jolloin sain ehdotuksen "You can see the errors by typing this code:"
  
           systemctl status apache2.service
 
