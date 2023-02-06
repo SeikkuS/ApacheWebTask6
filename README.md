@@ -43,3 +43,26 @@ Tämän jälkeen avasin terminaalin ja etsin oikean hakemiston, jossa varmuuskop
  
  ## b)
 
+ ![kuva](https://user-images.githubusercontent.com/105205141/216955980-ef617bf2-194f-48a0-bf2e-b39a4c97cb34.png)
+ 
+ tein virheen apache2.conf  -tiedostoon poistamalla yhden kaarisulun, joka aiheutti syntaksivirheen. En edes saanut palvelinta takaisin päälle. 
+ 
+ löysin virheen kirjoittamalla
+ 
+          systemctl status apache2.service
+
+tällä sain seuraavanlaisen virheilmoituksen: 
+
+![kuva](https://user-images.githubusercontent.com/105205141/216958041-cd7284eb-218f-46d3-8352-3dab773f8264.png)
+
+tarkemmin katsoen havaitaan, että on huomattu syntaksivirhe rivillä 80:
+
+ ![kuva](https://user-images.githubusercontent.com/105205141/216958132-b7344cff-2f7b-41e2-9c31-ef9410ecca2d.png)
+
+ avaamalla apache2.conf tiedoston ja menemällä riville 80, löydetään tämä rivi:
+
+![kuva](https://user-images.githubusercontent.com/105205141/216958767-6d56cc32-3261-4015-ae8c-8dd62d785445.png)
+ 
+ josta puuttuu kaarisulku lopusta.
+
+ nyt kun kaarisulku laitetaan takaisin ja käynnistetään palvelin, toimii palvelin ongelmitta. 
